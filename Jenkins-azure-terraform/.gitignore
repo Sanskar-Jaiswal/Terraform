@@ -1,0 +1,29 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore crash logs
+crash.log
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore any `.terraform` directory (Terraform modules and plugins)
+.terraform/
+
+# Ignore backup files
+*.backup
+*.tfvars.backup
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+*.swp
+
+# Ignore private SSH keys (if stored locally)
+*.pem
+*.key
+*.pub
+
+# Ignore local environment files
+.env
